@@ -4,6 +4,9 @@ For our class project, using guidelines provided by Professor Thomas, I will eva
 *Here is a link to the original researchers' github repository:*
 https://github.com/YerevaNN/mimic3-benchmarks
 
+*And, here is a link to their paper about these benchmarks:*
+https://arxiv.org/abs/1703.07771v2
+
 **Why This Project**
 MIMIC III is a rich database that I've worked in for about 8 months. (In order to work with this database, a researcher must complete a series of Stage 1 Data or Specimens Only "courses from the Massachuettes Institute of Technology found through the Citiprogram. The link to that program is here:
 https://about.citiprogram.org/en/homepage/. 
