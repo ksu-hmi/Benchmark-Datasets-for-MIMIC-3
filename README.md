@@ -1,6 +1,6 @@
-# Evaluation-of-Python-suite-to-construct-benchmark-machine-learning-datasets-from-MIMIC-III
+# Demonstrating How MIMIC-III Benchmarks Run in Python
 For our class project, using guidelines provided by Professor Thomas, I will evaluate the work begun by four researchers from Cornell University who are using Python and MIMIC-III data I their efforts to develop “four clinical prediction benchmarks.” (https://arxiv.org/abs/1703.07771)  
-
+OrOn May 30, Professor Thomas and I modified the project to developing and presenting a voice-over instruction video illustrating how to  run the benchmarks  code written in Python for the MIMIC-III database. developed , making that into a .ppt presentation with voiceover so we could upload it to the class github account. Assuming I heard that correctly, I've begun following the Steps 1-6 on how to run the benchmarks. Those steps are found midway down on this page here:  https://github.com/YerevaNN/mimic3-benchmarks. I opened up a GIT CMD and started the first step. 
 *Here is a link to the original researchers' github repository:*
 https://github.com/YerevaNN/mimic3-benchmarks
 
