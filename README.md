@@ -5,7 +5,7 @@ MIMIC-III was a target for this class project because it is one of the largest a
 
 After reviewing their Updated README.md in the Benchmarks repository, one file - the mimic3models file - was opened for initial examination. Here is the link to that file: (https://github.com/YerevaNN/mimic3-benchmarks/tree/master/mimic3models) There were ~20 subfolders in it. The code of one  subfolder, "preprocessing.py" was opened and explored.https://github.com/YerevaNN/mimic3-benchmarks/blob/master/mimic3models/preprocessing.py. 
 
-It took 90-minutes to talk through the first ~50 lines of that code. Since there were ~20 other subfolders under the mimic3models file, the scope of the project was modified to  running the benchmark code and designing a PowerPoint presentation with voiceover describing that process and uploading that on the ksu-is GitHub team account.
+It took 90-minutes to talk through the intentions of about the first 50 lines of that code. Since there were ~20 other subfolders under the mimic3models file, the scope of the project was modified to  running the benchmark code and designing a PowerPoint presentation with voiceover describing that process and uploading that on the ksu-is GitHub team account.
 
 
 
