@@ -1,17 +1,11 @@
 # Demonstrating How MIMIC-III Benchmarks Run in Python
-The goal for the HMI 7540 class project is to feature a GitHub repository using Python code with the MIMIC-III database, which is a database some Cohort 2 students will access in the Fall semester. The outcome of the project is to upload onto our class' GitHub account an original, voice-over Powerpoint presentation explaining the Python/MIMIC-111 repository and showing how the code works.  the workings of the code.
+Originally, the goal for the HMI 7540 class project was to feature a GitHub repository that used Python code with the MIMIC-III database with the intention of modifying the code to suit purposes for an upcoming research activity for the fall. The work by Cornell University researchers Hrayr Harutyunyan, Hrant Khachatrian, David C. Kale, Greg Ver Steeg, and Aram Galstyan met the criteria for the project's original goals because they used Python code to build machine learning datasets from the MIMIC-III database. An article derived from their research is published here: (https://arxiv.org/abs/1703.07771) and their repository can be found here: (https://github.com/YerevaNN/mimic3-benchmarks). 
 
-Cornell University researchers Hrayr Harutyunyan, Hrant Khachatrian, David C. Kale, Greg Ver Steeg, and Aram Galstyan used Python code to build machine learning datasets from the MIMIC-III database. An article derived from their research is published here: (https://arxiv.org/abs/1703.07771). Their repositiory met the goals for the HMI 7540 class project and can be found here: (https://github.com/YerevaNN/mimic3-benchmarks). 
+MIMIC-III was a target for this class project because it is one of the largest and most publically accessible critical care unit (i.e., intensive care unit, or ICU ) databases in the world and the thought was that other HMI students might use it for research purposes and would benefit from a general knowledge about it. (https://www.nature.com/articles/sdata201635). MIMIC-III is a relational database composed of 26 tables of  deidentified clinical information of ~40,000 adult and pediatric patients admitted to the Beth Israel Deaconess Medical Center in Boston.  Access to MIMIC-III is granted after passing a series of CITI Program courses designed to educate faculty and students about issues involving human subject research. (https://about.citiprogram.org/en/homepage/). 
 
-# MIMIC-III
-MIMIC-III is one of the largest and most publically accessible critical care unit (i.e., intensive care unit) databases in the world. (https://www.nature.com/articles/sdata201635) Access to it is granted after passing a series of courses located online at the CITI Program website. The Citi Program is designed to educate faculty and students about issues involving human subject research.(https://about.citiprogram.org/en/homepage/) 
+After reviewing their Updated README.md in the Benchmarks repository, one file - the mimic3models file - was opened for initial examination. Here is the link to that file: (https://github.com/YerevaNN/mimic3-benchmarks/tree/master/mimic3models) There were ~20 subfolders in it. The code of one  subfolder, "preprocessing.py" was opened and explored.https://github.com/YerevaNN/mimic3-benchmarks/blob/master/mimic3models/preprocessing.py. 
 
-MIMIC-III is a relational database composed of 26 tables housing the deidentified clinical information of ~40,000 patients admitted to the Beth Israel Deaconess Medical Center in Boston. It is maintained by the MIT Laboratory for Computational Physiology and other research groups and MIT wrote the CITI Program training courses.  
+It took 90-minutes to talk through the first ~50 lines of that code. Since there were ~20 other subfolders under the mimic3models file, the scope of the project was modified to  running the benchmark code and designing a PowerPoint presentation with voiceover describing that process and uploading that on the ksu-is GitHub team account.
 
-#Evaluating 
-
-Their project wasAnd, the link to their github repository is 
-
-Below are some code links and a brief description, 
 
 
