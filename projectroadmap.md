@@ -24,7 +24,7 @@ https://github.com/YerevaNN/mimic3-benchmarks/commit/59b5559141eb3f9cf468e416d7a
     1. **python -m mimic3benchmark.scripts.create_length_of_stay data/root/ data/length-of-stay/**
     1. **python -m mimic3benchmark.scripts.create_phenotyping data/root/ data/phenotyping/**
     1. **python -m mimic3benchmark.scripts.create_multitask data/root/ data/multitask/**
-18. Complete Project Week 3 Tasks 
+18. DONE Complete Project Week 3 Tasks 
 19. DONE Clarify the format of my final presentation in Teams or emails to Prof Thomas
 20. Complete presentation with Voiceover
 21. Upload presentation
