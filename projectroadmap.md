@@ -1,9 +1,8 @@
 1. DONE Get Professor Thomas approval of the Benchmarking project	so I can get started 
-2. DONE Read the  Benchmark article and get an understanding about machine learning to understand the Cornell Researchers' project 
-3. DONE Assess completion of Project Week 1 Tasks so the project is on time and move to Test 1 
-4. DONE Analyze information at these two links: 	To  get an understanding of the scope of the original project
-https://github.com/YerevaNN/mimic3-benchmarks/commit/e70a7554bb5a39fb8483f1108936fb3df0a4930e  	
-https://github.com/YerevaNN/mimic3-benchmarks/commit/59b5559141eb3f9cf468e416d7ac760a45e64d7e	
+2. DONE Read the  Benchmark article and analyze these two links to get an understanding of machine learning, benchmarking and the intent of the Cornell Researchers' project 
+[GitHub] https://github.com/YerevaNN/mimic3-benchmarks/commit/e70a7554bb5a39fb8483f1108936fb3df0a4930e  	
+[GitHub] https://github.com/YerevaNN/mimic3-benchmarks/commit/59b5559141eb3f9cf468e416d7ac760a45e64d7e	
+DONE Assess completion of Project Week 1 Tasks so the project is on time and move to Test 1 
 
 - [ ] task 1
 Evaluate these two links: 
