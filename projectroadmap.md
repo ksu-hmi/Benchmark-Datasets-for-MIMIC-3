@@ -6,14 +6,14 @@ https://github.com/YerevaNN/mimic3-benchmarks/commit/59b5559141eb3f9cf468e416d7a
 1. DONE Explore the types and numbers of subfolders under the  mimic3-benchmarks/mimic3models/ file to assess the project scope
 1. DONE Analyze line-by-line the preprocessing.py file under mimic3-benchmarks/mimic3models/ file	to help determine if the scope of the project is manageable
 1. DONE Assess completion of Project Week 2 Tasks in order to stay on task and so I can take Test 2
-8. DONE Create projectroadmap.md to stay in compliance with Project Week 2 tasks
-9. Apply features from the Mastering Markdown cheatsheet 	in order to stay in compliance with Project Week tasks 
-10. DONE Ask Professor Thomas for a change in scope	in order to produce an attainable project with time and resources avaialble. 
-11.Review time, computing, and technical know-how requirements  for running benchmark and making a powerpoint to create a plan for 3 July completion. 
-12. DONE Download MIMIC-III .csv files	so Steps 1-6 benchmarking steps can be done
-13. DONE Step 1: Clone the repo by following these step:
-    13. a. git clone https://github.com/YerevaNN/mimic3-benchmarks/
-    13. b. cd mimic3-benchmarks/
+1. DONE Create projectroadmap.md to stay in compliance with Project Week 2 tasks
+1. Apply features from the Mastering Markdown cheatsheet 	in order to stay in compliance with Project Week tasks 
+1. DONE Ask Professor Thomas for a change in scope	in order to produce an attainable project with time and resources avaialble. 
+1.Review time, computing, and technical know-how requirements  for running benchmark and making a powerpoint to create a plan for 3 July completion. 
+1. DONE Download MIMIC-III .csv files	so Steps 1-6 benchmarking steps can be done
+1. DONE Step 1: Clone the repo by following these step:
+    1. a. git clone https://github.com/YerevaNN/mimic3-benchmarks/
+    1. b. cd mimic3-benchmarks/
 14. Step 2: The following command takes MIMIC-III CSVs, generates one directory per SUBJECT_ID and writes ICU stay information to data/{SUBJECT_ID}/stays.csv, diagnoses to data/{SUBJECT_ID}/diagnoses.csv, and events to data/{SUBJECT_ID}/events.csv. This step might take around an hour. (python -m mimic3benchmark.scripts.extract_subjects {PATH TO MIMIC-III CSVs} data/root/)
 15. The following command attempts to fix some issues (ICU stay ID is missing) and removes the events that have missing information. About 80% of events remain after removing all suspicious rows (more information can be found in https://github.com/YerevaNN/mimic3-benchmarks/blob/master/mimic3benchmark/scripts/more_on_validating_events.md. (python -m mimic3benchmark.scripts.validate_events data/root/)
 15. Step 3: The next command breaks up per-subject data into separate episodes (pertaining to ICU stays). Time series of events are stored in {SUBJECT_ID}/episode{#}_timeseries.csv (where # counts distinct episodes) while episode-level information (patient age, gender, ethnicity, height, weight) and outcomes (mortality, length of stay, diagnoses) are stores in {SUBJECT_ID}/episode{#}.csv. This script requires two files, one that maps event ITEMIDs to clinical variables and another that defines valid ranges for clinical variables (for detecting outliers, etc.). Outlier detection is disabled in the current version. (python -m mimic3benchmark.scripts.validate_events data/root/)
