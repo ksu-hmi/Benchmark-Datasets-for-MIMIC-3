@@ -7,7 +7,7 @@ https://github.com/YerevaNN/mimic3-benchmarks/commit/59b5559141eb3f9cf468e416d7a
 1. DONE Analyze line-by-line the preprocessing.py file under mimic3-benchmarks/mimic3models/ file	to help determine if the scope of the project is manageable
 1. DONE Assess completion of Project Week 2 Tasks in order to stay on task and so I can take Test 2
 1. DONE Create projectroadmap.md to stay in compliance with Project Week 2 tasks
-1. Apply features from the Mastering Markdown cheatsheet 	in order to stay in compliance with Project Week tasks 
+1. DONE Apply features from the Mastering Markdown cheatsheet 	in order to stay in compliance with Project Week tasks 
 1. DONE Ask Professor Thomas for a change in scope	in order to produce an attainable project with time and resources avaialble. 
 1.Review time, computing, and technical know-how requirements  for running benchmark and making a powerpoint to create a plan for 3 July completion. 
 1. DONE Download MIMIC-III .csv files	so Steps 1-6 benchmarking steps can be done
