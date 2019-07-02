@@ -11,6 +11,7 @@ https://github.com/YerevaNN/mimic3-benchmarks/commit/59b5559141eb3f9cf468e416d7a
 1. DONE Ask Professor Thomas for a change in scope	in order to produce an attainable project with time and resources avaialble. 
 1.Review time, computing, and technical know-how requirements  for running benchmark and making a powerpoint to create a plan for 3 July completion. 
 1. DONE Download MIMIC-III .csv files	so Steps 1-6 benchmarking steps can be done
+1. Download packages numpy and pandas - they are requirements for Step 2 to run - 
 1. DONE Step 1: Clone the repo by following these step:
     1. a. git clone https://github.com/YerevaNN/mimic3-benchmarks/
     1. b. cd mimic3-benchmarks/
