@@ -18,7 +18,8 @@ After reviewing Harutyunyan, et al's article, examination of the MIMIC-III-bench
 
 To demonstrate how the Python code worked, this project followed the instructions in the original repository where, unfortunately, mistakes and a few hiccups occurred. 
 
-# Mistakes and "Regrets, I've Had a Few..." ###(from Frank Sinatra's, "My Way")
+## Mistakes and "Regrets, I've Had a Few..." 
+###(from Frank Sinatra's, "My Way")
 1. Downloading the entire MIMIC III database was a pain because of the file type
  1. The original file type from the 
 1. The requirements on how to run the scripts really do require NumPY and Pandas.
