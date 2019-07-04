@@ -1,4 +1,6 @@
 1. DONE Get Professor Thomas approval of the Benchmarking project	so I can get started (I, Patricia, completed all tasks so I'm not adding my name to the rest of these tasks)
+1. DONE Login to my existing GitHub account and join "ksu-is (https:\\github.com/ksu-is).
+1. DONE Create Code Repository "Replicating Benchmark Datasets For MIMIC-III Using Scripts Written in Python Code"
 1. DONE Read the  Benchmark article and analyze these two links to get an understanding of machine learning, benchmarking and the intent of the Cornell Researchers' project https://github.com/YerevaNN/mimic3-benchmarks/commit/e70a7554bb5a39fb8483f1108936fb3df0a4930e  and	
 https://github.com/YerevaNN/mimic3-benchmarks/commit/59b5559141eb3f9cf468e416d7ac760a45e64d7e	
 1. DONE Assess completion of Project Week 1 Tasks so the project is on time and move to Test 1 
