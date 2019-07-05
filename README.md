@@ -28,8 +28,13 @@ Unfortunately, things did not go as planned.
 
 ## Mistakes and "Regrets, I've Had a Few..." 
 ### (from Frank Sinatra's, "My Way")
-1. Downloading the entire MIMIC III database was a pain because of the file type
- 1. The original file type from the 
+1. Downloading the entire MIMIC III database took time and there were no issues. Opening them was another story because of their file type
+ 1. MIMIC-III tables are stored as tar.gz files. For a project last year, I used WinZip (free) to open one of the MIMIC tables. Later, I discovered that Windows 10 had a built-in Linux utility that could unpackage them. After 2-3 hours of going through multiple steps and even backtracking to get this to work, I ended up downloading 7Zip to convert the downloaded files to .csv files. Some took several minutes to convert and the process was smooth.
+1. Step 1: Cloning the repository and accessing the mimic3-benchmarks on my home system was easy.
+1. Step 2: My project never made it past this point. Here's why:
+ 1. In the Requirements section, the directions state: "Specifically, download the CSVs. Otherwise, generally we make liberal use of the following packages:numpy and pandas." I took that to mean, "Specifically, download the CSVs. Otherwise, casually, while we made liberal use of the following packages numpy and pandas, you won't need them since all you need is to download the CSVs and run the Python scripts."
+ 1. The first time I ran the script found in Step 2: "python -m mimic3benchmark.scripts.extract_subjects {PATH TO MIMIC-III CSVs} data/root/", I got the error message that going to need them unless you are going to but were 
+which unpackaged everytdownloading Ubuntu and following other directions to get the To download all for a research project but WINZip
 1. The requirements on how to run the scripts really do require NumPY and Pandas.
 
 
