@@ -14,15 +14,17 @@ Also, selecting this for the class project introduce fellow students to MIMIIC-I
 Harutyunyan's, et al's work used data from the MIMIC-III database to create four publicaly available clinical prediction benchmark data sets. Prior to their efforts, there were no benchmark sets based on publicly available healthcare data. The theory is that the absence of readily available benchmarks handicaps the progress of machine learning in healthcare research, specifically in discoveries that can't be identified in the reams of accumulating and underexamined patient data. This patient information continues to accumulate because it is generated through the increasing adoption of electronic health records (EHRs). 
 
 Harutyunyan and his colleagues wrote and Python coded scripts to help "compile a subset of the MIMIC-III database with more than 31 million clinical event from 42,276 [intensive care unit] ICU stays of 33,798 unique patients." Using this subset, they defined "four clinical predication tasks"  previously identified as the premium areas in which data analytics could make a significant impact. These four areas include:
- 1. 1. in-hospital mortality prediction
- 1. 2. physiological decompensation prediction
- 1. 3. length-of-stay prediction
- 1. 4. phenotype classification
+ 1. in-hospital mortality prediction
+ 1. physiological decompensation prediction
+ 1. length-of-stay prediction
+ 1. phenotype classification
  
 ## Process Used and Code Examined 
-nAfter several read-throughs of the Harutyunyan, et al's article, the examination of the MIMIC-III-benchmarks repository started in detail (https://github.com/YerevaNN/mimic3-benchmarks) and this took days of various types of study. The code was detailed and voluminous.  As an example, the mimic3models file (https://github.com/YerevaNN/mimic3-benchmarks/tree/master/mimic3models) contained ~20 subfolders. It took 90-minutes to "talk-through" or dissect the first 50 lines of the ~231 total lines in one of these 20 named, "preprocessing.py" (https://github.com/YerevaNN/mimic3-benchmarks/blob/master/mimic3models/preprocessing.py).  
+After several read-throughs of the Harutyunyan, et al's article, and with the intention of following the author's suggestion to duplicate the creation of the benchmarks, the next step was to examine the whole MIMIC-III-benchmarks repository.  (https://github.com/YerevaNN/mimic3-benchmarks) This took days rather than hours and required various types of study. For instance, I started with READMe and then began looking at the .py code in the mimic3models file and subfolders. The code was detailed.  As an example, the mimic3models file (https://github.com/YerevaNN/mimic3-benchmarks/tree/master/mimic3models) contained ~20 subfolders. I opened all of them but examined the preprocessing.py file. (https://github.com/YerevaNN/mimic3-benchmarks/blob/master/mimic3models/preprocessing.py).  It took 90-minutes to "talk-through" or dissect the first 50 lines of the ~231 total lines in "preprocessing.py."   
  
-It was decided that the wisest move would be to follow the original suggestion of the authors and duplicate the benchmarks following the six steps listed in their repository. To demonstrate how the Python code worked, this project followed the instructions in the original repository where, unfortunately, mistakes and a few hiccups occurred. 
+I noted the other content in the repository, including the Structure section https://github.com/YerevaNN/mimic3-benchmarks#structure and especially the Requirements https://github.com/YerevaNN/mimic3-benchmarks#requirements and Building A Benchmark portion.  https://github.com/YerevaNN/mimic3-benchmarks#building-a-benchmark.
+
+Unfortunately, things did not go as planned.
 
 ## Mistakes and "Regrets, I've Had a Few..." 
 ### (from Frank Sinatra's, "My Way")
