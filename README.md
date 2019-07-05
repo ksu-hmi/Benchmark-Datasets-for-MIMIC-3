@@ -35,10 +35,8 @@ Unfortunately, things did not go as planned.
  1. When I ran the script found in Step 2: python -m mimic3benchmark.scripts.extract_subjects {PATH TO MIMIC-III CSVs} data/root/, I got the error message that "numpy" could not be located. So, I downloaded numpy and pandas.
  1. With those packages installed, the script "python -m mimic3benchmark.scripts.extract_subjects {PATH TO MIMIC-III CSVs} data/root/" was run again. This time, our error message was that "YAML" could not be found.
  1. I researched YAML to find out what this was.
- 1. I used IDLE to open the extracts_subjects.py file to see where YAML was used and found it written there as a executable, so YAML was installed via pip at the CMD prompt as were the previous two packages.
- 1. The script in Step 2 was run again. This time, there were a seriouThe next time I ran the going to need them unless you are going to but were 
-which unpackaged everytdownloading Ubuntu and following other directions to get the To download all for a research project but WINZip
-1. The requirements on how to run the scripts really do require NumPY and Pandas.
+ 1. I used IDLE to open the extracts_subjects.py file to see where YAML was used in the code and found it so YAML was installed via pip at the CMD prompt as were the previous two packages.
+ 1. The script in Step 2 was run again. This time, the script appeared to run until I received another error message saying there was no output location for the results. I ran the same script from the Anaconda prompt and received the same error. 
 
 
 
