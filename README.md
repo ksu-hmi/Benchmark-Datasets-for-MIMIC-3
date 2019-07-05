@@ -36,7 +36,7 @@ Unfortunately, things did not go as planned.
  1. With those packages installed, the script "python -m mimic3benchmark.scripts.extract_subjects {PATH TO MIMIC-III CSVs} data/root/" was run again. This time, our error message was that "YAML" could not be found.
  1. I researched YAML to find out what this was.
  1. I used IDLE to open the extracts_subjects.py file to see where YAML was used in the code and found it so YAML was installed via pip at the CMD prompt as were the previous two packages.
- 1. The script in Step 2 was run again. This time, the script appeared to run until I received another error message saying there was no output location for the results. I ran the same script from the Anaconda prompt and received the same error. 
+ 1. The script in Step 2 was run again. This time, the script appeared to run until I received another error message "extract_subjects.py: error: the following arguments are required: output_path". Switching to the Anaconda command prompt produced the same error. 
 
 
 
