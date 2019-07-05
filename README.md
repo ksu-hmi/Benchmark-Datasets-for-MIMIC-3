@@ -26,14 +26,17 @@ I noted the other content in the repository, including the Structure section htt
 
 Unfortunately, things did not go as planned.
 
-## Mistakes and "Regrets, I've Had a Few..." 
+## "Regrets, I've Had a Few..." 
 ### (from Frank Sinatra's, "My Way")
-1. Downloading the entire MIMIC III database took time and there were no issues. Opening them was another story because of their file type
- 1. MIMIC-III tables are stored as tar.gz files. For a project last year, I used WinZip (free) to open one of the MIMIC tables. Later, I discovered that Windows 10 had a built-in Linux utility that could unpackage them. After 2-3 hours of going through multiple steps and even backtracking to get this to work, I ended up downloading 7Zip to convert the downloaded files to .csv files. Some took several minutes to convert and the process was smooth.
+1. Downloading the 26 tables of the MIMIC III database took time but ran smoothly. However, opening the files took time because they are stored as tar.gz files. Though I used a free version WinZip (free) to open one of the MIMIC tables for a project last fall, WinZip had caused other issues on my desktop and I wanted to avoid it. I discovered that Windows 10 had a built-in Linux utility that could unpackage .gz files. I downloaded the MIMIC-III tables a second time as .gz files only and followed multiple steps as outlined by MIcrosoft to unpack them using Windows 10. This process took over 3 hours and eventually, I downloaded 7-Zip to convert the downloaded files to .csv files. Some took several minutes to convert and the process was smooth.
 1. Step 1: Cloning the repository and accessing the mimic3-benchmarks on my home system was easy.
 1. Step 2: My project never made it past this point. Here's why:
- 1. In the Requirements section, the directions state: "Specifically, download the CSVs. Otherwise, generally we make liberal use of the following packages:numpy and pandas." I took that to mean, "Specifically, download the CSVs. Otherwise, casually, while we made liberal use of the following packages numpy and pandas, you won't need them since all you need is to download the CSVs and run the Python scripts."
- 1. The first time I ran the script found in Step 2: "python -m mimic3benchmark.scripts.extract_subjects {PATH TO MIMIC-III CSVs} data/root/", I got the error message that going to need them unless you are going to but were 
+  1. The Requirements state: "Specifically, download the CSVs. Otherwise, generally we make liberal use of the following packages:numpy and pandas." To me, that read: "You have to download the CSVs. Otherwise, even though we used numpy and pandas, athough we used numpy and pandas, and other statistical packages for other parts of our study, you don't need them if all you're going to do is build the benchmarks. So, download the CSVs and run the Python scripts in Steps 2-6 and you'll see how to build the benchmarks."
+ 1. When I ran the script found in Step 2: python -m mimic3benchmark.scripts.extract_subjects {PATH TO MIMIC-III CSVs} data/root/, I got the error message that "numpy" could not be located. So, I downloaded numpy and pandas.
+ 1. With those packages installed, the script "python -m mimic3benchmark.scripts.extract_subjects {PATH TO MIMIC-III CSVs} data/root/" was run again. This time, our error message was that "YAML" could not be found.
+ 1. I researched YAML to find out what this was.
+ 1. I used IDLE to open the extracts_subjects.py file to see where YAML was used and found it written there as a executable, so YAML was installed via pip at the CMD prompt as were the previous two packages.
+ 1. The script in Step 2 was run again. This time, there were a seriouThe next time I ran the going to need them unless you are going to but were 
 which unpackaged everytdownloading Ubuntu and following other directions to get the To download all for a research project but WINZip
 1. The requirements on how to run the scripts really do require NumPY and Pandas.
 
