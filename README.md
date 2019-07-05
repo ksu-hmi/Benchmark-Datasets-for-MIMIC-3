@@ -37,6 +37,16 @@ Unfortunately, things did not go as planned.
  1. I researched YAML to find out what this was.
  1. I used IDLE to open the extracts_subjects.py file to see where YAML was used in the code and found it so YAML was installed via pip at the CMD prompt as were the previous two packages.
  1. The script in Step 2 was run again. This time, the script appeared to run until I received another error message "extract_subjects.py: error: the following arguments are required: output_path". Switching to the Anaconda command prompt produced the same error. 
+ 1. I attempted to run the script from IDLE and that produced a syntax error that I could not figure out in the time I had left.
+1. The Structure section did not provide me with the help I needed though those resources were reviewed. https://github.com/YerevaNN/mimic3-benchmarks#structure
+ 
+ ## Conclusions
+1. Tenacious effort was applied towards attempting to duplicate the benchmark building as outlined in Steps 1-2. 
+1. Many sources and resources were tapped into in order to understand the errors once they began to occur.
+1. I did not have the background in Python that was necessary to understand how to interpret and fix some of the error messages (i.e., output_path) or to understand what error messages could have been fixed by adjusting the code that existed.
+1. The authors may need to outline more thorough requirements for all the packages that needed to execute the scripts (i.e., YAML was not mentioned anywhere in the READMe.md)
+1. While the authors do point out that an "extensive knowledge of medicine or clinical data" is not necessary to reproduce their work, obviously a certain benchmark of experience in data analytics and Python is required and was one I don't yet have. Outlining this necessary background would have been helpful.
+1. While this was probably not a project I was qualified to do on my own given my level of current knowledge, I did learn a lot through trial and error. It is disappointing that I could not get the steps completed in time for the project deadline to be met. However, now, I want to find out what is necessary so I can build these benchmarks and see my original goal for the project completed. Working on the KSU certificate in Python, which I am now registered in, will hopefully help me figure this out. And, getting help from more reliable tutors and asking faculty for more help earlier on.
 
 
 
